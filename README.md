@@ -23,16 +23,13 @@
              Brand + Model
              
 ### Feature Scaling
+      Used StandardScaler for scale-sensitive models:
+      Linear Regression, Ridge Regression, Lasso Regression
 
-Used StandardScaler for scale-sensitive models:
+    (Tree-based models like Random Forest and XGBoost were trained without scaling.)
 
-Linear Regression
-Ridge Regression
-Lasso Regression
+## Models Implemented:
 
-(Tree-based models like Random Forest and XGBoost were trained without scaling.)
-
-## Models Implemented
 🔹 Linear Regression
 
 Baseline regression model.
